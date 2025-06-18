@@ -45,8 +45,8 @@ Before training the model, we performed exploratory data analysis on the extract
 
 ## 4. Usage
 ### 4.1 Prerequisites
-- Python 3.7+
-- GPU recommended (for faster feature extraction & training), but CPU can run inference (slower).
+- Python 3.10+
+- GPU recommended (for faster feature extraction & training), but CPU can run inference (slower). be careful with what you installed especially the version you choose, with pure CPU running speed can be extremly slow.
 - Virtual environment is recommended.
 - Dependencies (in `requirements.txt`):  
   - `torch`, `torchvision`, `opencv-python`, `detectron2` (install per Detectron2 docs), `numpy`, `pandas`, `matplotlib`, `scikit-learn`, `streamlit` (for frontend).
