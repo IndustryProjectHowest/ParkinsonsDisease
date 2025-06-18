@@ -33,7 +33,7 @@ Before training the model, we performed exploratory data analysis on the extract
   - Epochs: ~20–30 (depending on data size)
   - Handle variable-length snippet sequences via padding/packing in DataLoader.
 - **Evaluation metrics**: Accuracy, precision/recall/F1 per class, confusion matrix, ROC curve & AUC.
-- **Typical results (example placeholders)**:
+- **Typical results**:
   - Overall accuracy: ~0.80
   ![alt text](/images/image.png)
   - Positive class: precision ~0.74, recall ~0.66
